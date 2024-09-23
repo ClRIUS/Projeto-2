@@ -1,27 +1,69 @@
-# Coinflow
+# Projeto-2
+Apresentação Projeto 2 (Restic36) - Unidade 05
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
+# Descrição do projeto
+Protótipo inicial de projeto voltado para controle financeiro pessoal, onde futuramente será possível lançar receitas, despesas e ter visualização da vida vinanceira por meio de dashboards.
 
-## Development server
+![Telas do projeto](/src/assets/img/project.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Pré-requisitos
 
-## Code scaffolding
+Antes de executar o projeto, certifique-se de ter o seguinte instalado:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) (geralmente instalado com o Node.js)
+- [Angular CLI](https://angular.io/cli) (pode ser instalado com `npm install -g @angular/cli`)
 
-## Build
+## Clonando o Repositório
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Abra o terminal ou prompt de comando.
+2. Execute o seguinte comando para clonar o repositório:
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/ClRIUS/Projeto-2.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Navegue até a pasta do projeto
 
-## Running end-to-end tests
+## Instalando Dependências
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Instale as dependências do projeto usando o npm:
 
-## Further help
+  ```bash
+    npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Instalando Angular Material
+Para adicionar o Angular Material ao seu projeto, execute o seguinte comando:
+
+  ```bash
+ng add @angular/material
+```
+
+## Executando o Projeto
+Para iniciar o servidor de desenvolvimento do Angular, execute:
+
+  ```bash
+    ng serve
+```
+O projeto estará disponível em http://localhost:4200.
+
+## Como Usar
+
+-Acesse a página de login.
+
+-Insira as credenciais:
+    Email: test@gmail.com
+    Senha: 123
+
+Após fazer login, você será redirecionado para a página inicial.
+
+# Tecnologias Utilizadas
+- Angular 17
+- JSON Server
+- Angular Material
+
+# Algumas Melhorias futuras
+- Funcionalidade para inserir receitas e despesas
+- Dashboards para visualização das finanças
+- Registro de Usuário
+- Desenvolver BackEnd
