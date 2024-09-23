@@ -1,0 +1,91 @@
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-logo {
+    width: 380px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.login-container {
+    background-color: #1D2032;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 11px 11px 8px rgba(12, 12, 12, 0.5);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.img-coin1 {
+    position: absolute;
+    bottom: -3.5rem;
+    left: -25px;
+}
+
+.img-coin2 {
+    position: absolute;
+    top: -10px;
+    right: -1.5rem;
+}
+
+.img-coin3 {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    transform: scaleX(-1);
+    right: -1.9rem;
+}
+
+.color-atention, h1 {
+    color: #FE8101;
+}
+
+.login-container h1, h2 {
+    z-index: 1000;
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-login {
+    width: 100px;
+}
+
+//Oculta imagem em determinada largura para manter a responsividade
+@media (max-width: 950px) {
+    .img-logo {
+        display: none;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .login-container{
+        margin: 0;
+    }
+}
