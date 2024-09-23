@@ -4,13 +4,7 @@ Apresentação Projeto 2 (Restic36) - Unidade 05
 # Descrição do projeto
 Protótipo inicial de projeto voltado para controle financeiro pessoal, onde futuramente será possível lançar receitas, despesas e ter visualização da vida vinanceira por meio de dashboards.
 
-![Telas do projeto](/coinflow/src/assets/img/project.png)
-
-## Pré-requisitos
-
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-- [TypeScript](https://www.typescriptlang.org/) (opcional, se você não estiver usando uma ferramenta de build)
+![Telas do projeto](/src/assets/img/project.png)
 
 ## Pré-requisitos
 
@@ -56,6 +50,7 @@ O projeto estará disponível em http://localhost:4200.
 ## Como Usar
 
 -Acesse a página de login.
+
 -Insira as credenciais:
     Email: test@gmail.com
     Senha: 123
