@@ -3,6 +3,7 @@ Apresentação Projeto 2 (Restic36) - Unidade 05
 
 # Descrição do projeto
 Protótipo inicial de projeto voltado para controle financeiro pessoal, onde futuramente será possível lançar receitas, despesas e ter visualização da vida vinanceira por meio de dashboards.
+Neste protótipo após efetuar o "primeiro login" ele te direciona para uma pergunta de qual seria o objetivo em utilizar a aplicação.
 
 ![Telas do projeto](/src/assets/img/project.png)
 
